@@ -8,7 +8,7 @@ function callBackFunc( err, list  ) {
 	var path = require('path') ;
 	for ( var i = 0 ; i < list.length ; i++ ) {
 		if ( path.extname( list[i] ) == targetName)  {
-			console.log( list[i]) ;
+			console.log( list[i] + "\n") ;
 
 		}
 	}
